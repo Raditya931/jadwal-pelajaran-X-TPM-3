@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pelajaran X-TPM 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jadwal Pelajaran X-TPM 3</h1>
+        <div class="jadwal">
+            <div class="hari" id="senin">
+                <h2>Senin</h2>
+                <div class="mapel" onclick="showInfo('BIG')">BIG</div>
+                <div class="mapel" onclick="showInfo('sejarah')">Sejarah</div>
+                <div class="mapel" onclick="showInfo('BIN')">BIN</div>
+                <div class="mapel" onclick="showInfo('Kimia')">Kimia</div>
+                <div class="mapel" onclick="showInfo('Biologi')">Biologi</div>
+                <div class="mapel" onclick="showInfo('Sejarah')">Sejarah</div>
+                <div class="mapel" onclick="showInfo('Geografi')">Geografi</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Agama')">Pendidikan Agama</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Jasmani')">Pendidikan Jasmani</div>
+                <div class="mapel" onclick="showInfo('Seni Budaya')">Seni Budaya</div>
+            </div>
+            <div class="hari" id="selasa">
+                <h2>Selasa</h2>
+                <div class="mapel" onclick="showInfo('Matematika')">Matematika</div>
+                <div class="mapel" onclick="showInfo('Bahasa Inggris')">Bahasa Inggris</div>
+                <div class="mapel" onclick="showInfo('Ekonomi')">Ekonomi</div>
+                <div class="mapel" onclick="showInfo('Sosiologi')">Sosiologi</div>
+                <div class="mapel" onclick="showInfo('Kimia')">Kimia</div>
+                <div class="mapel" onclick="showInfo('Biologi')">Biologi</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Agama')">Pendidikan Agama</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Jasmani')">Pendidikan Jasmani</div>
+                <div class="mapel" onclick="showInfo('Seni Budaya')">Seni Budaya</div>
+                <div class="mapel" onclick="showInfo('TIK')">TIK</div>
+            </div>
+                  <div class="hari" id="Rabu">
+                <h2>Rabu</h2>
+                <div class="mapel" onclick="showInfo('Matematika')">Matematika</div>
+                <div class="mapel" onclick="showInfo('Bahasa Inggris')">Bahasa Inggris</div>
+                <div class="mapel" onclick="showInfo('Ekonomi')">Ekonomi</div>
+                <div class="mapel" onclick="showInfo('Sosiologi')">Sosiologi</div>
+                <div class="mapel" onclick="showInfo('Kimia')">Kimia</div>
+                <div class="mapel" onclick="showInfo('Biologi')">Biologi</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Agama')">Pendidikan Agama</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Jasmani')">Pendidikan Jasmani</div>
+                <div class="mapel" onclick="showInfo('Seni Budaya')">Seni Budaya</div>
+                <div class="mapel" onclick="showInfo('TIK')">TIK</div>
+        </div>
+         <div class="hari" id="Kamis">
+                <h2>Kamis</h2>
+                <div class="mapel" onclick="showInfo('Matematika')">Matematika</div>
+                <div class="mapel" onclick="showInfo('Bahasa Inggris')">Bahasa Inggris</div>
+                <div class="mapel" onclick="showInfo('Ekonomi')">Ekonomi</div>
+                <div class="mapel" onclick="showInfo('Sosiologi')">Sosiologi</div>
+                <div class="mapel" onclick="showInfo('Kimia')">Kimia</div>
+                <div class="mapel" onclick="showInfo('Biologi')">Biologi</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Agama')">Pendidikan Agama</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Jasmani')">Pendidikan Jasmani</div>
+                <div class="mapel" onclick="showInfo('Seni Budaya')">Seni Budaya</div>
+                <div class="mapel" onclick="showInfo('TIK')">TIK</div>
+    </div>
+     <div class="hari" id="Jumat">
+                <h2>Jumat</h2>
+                <div class="mapel" onclick="showInfo('Matematika')">Matematika</div>
+                <div class="mapel" onclick="showInfo('Bahasa Inggris')">Bahasa Inggris</div>
+                <div class="mapel" onclick="showInfo('Ekonomi')">Ekonomi</div>
+                <div class="mapel" onclick="showInfo('Sosiologi')">Sosiologi</div>
+                <div class="mapel" onclick="showInfo('Kimia')">Kimia</div>
+                <div class="mapel" onclick="showInfo('Biologi')">Biologi</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Agama')">Pendidikan Agama</div>
+                <div class="mapel" onclick="showInfo('Pendidikan Jasmani')">Pendidikan Jasmani</div>
+                <div class="mapel" onclick="showInfo('Seni Budaya')">Seni Budaya</div>
+                <div class="mapel" onclick="showInfo('TIK')">TIK</div>
+    <div id="info" class="info"></div>
+    <script src="script.js"></script>
+</body>
+</html>
