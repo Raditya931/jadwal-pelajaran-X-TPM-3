@@ -1,0 +1,44 @@
+coding cssbody {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.jadwal {
+    display: flex;
+    flex-direction: column;
+}
+
+.hari {
+    margin-bottom: 20px;
+}
+
+.hari h2 {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mapel {
+    display: block;
+    background-color: #ffeb3b; /* Warna kuning */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px
